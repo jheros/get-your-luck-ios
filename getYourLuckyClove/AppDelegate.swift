@@ -15,15 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        sleep(3)
         let appdelegate = UIApplication.shared.delegate
-        let objStoryBoard = UIStoryboard.init(name: "Main", bundle: nil)
-        let objHome = objStoryBoard.instantiateViewController(withIdentifier :"HomeVC") as! HomeVC
+        let objStoryBoard = UIStoryboard.init(name: StoryboardIdentifier.storyBoardNameIdentifier, bundle: nil)
+        if let objHome = objStoryBoard.instantiateViewController(withIdentifier :ViewControlerIdentifier.homeVcIdentifier) as? HomeVC{
         let navHome = UINavigationController(rootViewController: objHome)
         navHome.isNavigationBarHidden = true
         UINavigationBar.appearance().barStyle = .default
         let windowMain = appdelegate?.window
         windowMain!!.rootViewController = navHome
         windowMain!!.makeKeyAndVisible()
+        }
         // Override point for customization after application launch.
         return true
     }

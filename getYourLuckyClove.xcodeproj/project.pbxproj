@@ -17,6 +17,7 @@
 		BF446409234DA9ED00DA769E /* Topaz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF446408234DA8F900DA769E /* Topaz.ttf */; };
 		BF44640B234DC4E200DA769E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44640A234DC4E200DA769E /* HomeVC.swift */; };
 		BF44640D234DC55500DA769E /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44640C234DC55500DA769E /* DisclaimerVC.swift */; };
+		BF9B07B2234EEE3400D428D6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07B1234EEE3400D428D6 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BF446408234DA8F900DA769E /* Topaz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Topaz.ttf; sourceTree = "<group>"; };
 		BF44640A234DC4E200DA769E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BF44640C234DC55500DA769E /* DisclaimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerVC.swift; sourceTree = "<group>"; };
+		BF9B07B1234EEE3400D428D6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				BF4463DA234D9DB400DA769E /* AppDelegate.swift */,
-				BF4463DC234D9DB400DA769E /* RandomHoursVC.swift */,
-				BF44640A234DC4E200DA769E /* HomeVC.swift */,
-				BF44640C234DC55500DA769E /* DisclaimerVC.swift */,
-				BF4463DE234D9DB400DA769E /* Main.storyboard */,
-				BF446408234DA8F900DA769E /* Topaz.ttf */,
-				BF4463E1234D9DB700DA769E /* Assets.xcassets */,
-				BF4463E3234D9DB700DA769E /* LaunchScreen.storyboard */,
-				BF4463E6234D9DB700DA769E /* Info.plist */,
+				BF9B07B1234EEE3400D428D6 /* Constant.swift */,
+				BF9B07B3234EF3AF00D428D6 /* Model */,
+				BF9B07B4234EF3BD00D428D6 /* View */,
+				BF9B07B6234EF46900D428D6 /* ViewModel */,
+				BF9B07B5234EF40200D428D6 /* Resource */,
 			);
 			path = getYourLuckyClove;
 			sourceTree = "<group>";
@@ -132,6 +131,42 @@
 				BF4463FC234D9DB700DA769E /* Info.plist */,
 			);
 			path = getYourLuckyCloveUITests;
+			sourceTree = "<group>";
+		};
+		BF9B07B3234EF3AF00D428D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF9B07B4234EF3BD00D428D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF44640A234DC4E200DA769E /* HomeVC.swift */,
+				BF4463DC234D9DB400DA769E /* RandomHoursVC.swift */,
+				BF44640C234DC55500DA769E /* DisclaimerVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF9B07B5234EF40200D428D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BF446408234DA8F900DA769E /* Topaz.ttf */,
+				BF4463DE234D9DB400DA769E /* Main.storyboard */,
+				BF4463E1234D9DB700DA769E /* Assets.xcassets */,
+				BF4463E3234D9DB700DA769E /* LaunchScreen.storyboard */,
+				BF4463E6234D9DB700DA769E /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BF9B07B6234EF46900D428D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9B07B2234EEE3400D428D6 /* Constant.swift in Sources */,
 				BF4463DD234D9DB400DA769E /* RandomHoursVC.swift in Sources */,
 				BF44640B234DC4E200DA769E /* HomeVC.swift in Sources */,
 				BF4463DB234D9DB400DA769E /* AppDelegate.swift in Sources */,
@@ -444,7 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 86AVXVW9H2;
 				INFOPLIST_FILE = getYourLuckyClove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WeHyphens.getYourLuckyClove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = getYourLuckyClove_development_prov_profile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -462,7 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 86AVXVW9H2;
 				INFOPLIST_FILE = getYourLuckyClove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WeHyphens.getYourLuckyClove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = getYourLuckyClove_development_prov_profile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -17,13 +17,15 @@ class HomeVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func historyButtonTapped(_sender:UIButton){
-        let randomHoursVc = self.storyboard?.instantiateViewController(withIdentifier: "RandomHoursVC") as! RandomHoursVC
+        if  let randomHoursVc = self.storyboard?.instantiateViewController(withIdentifier: ViewControlerIdentifier.randomHoursVcIdentifier) as? RandomHoursVC{
         self.navigationController?.pushViewController(randomHoursVc, animated: true)
+        }
         
     }
     @IBAction func disclaimerButtonTapped(_sender:UIButton){
-        let disclaimerVc = self.storyboard?.instantiateViewController(withIdentifier: "DisclaimerVC") as! DisclaimerVC
+        if let disclaimerVc = self.storyboard?.instantiateViewController(withIdentifier: ViewControlerIdentifier.disclaimerVcIdentifier) as? DisclaimerVC{
         self.navigationController?.pushViewController(disclaimerVc, animated: true)
+        }
     }
 
     /*
