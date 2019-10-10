@@ -18,6 +18,15 @@
 		BF44640B234DC4E200DA769E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44640A234DC4E200DA769E /* HomeVC.swift */; };
 		BF44640D234DC55500DA769E /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44640C234DC55500DA769E /* DisclaimerVC.swift */; };
 		BF9B07B2234EEE3400D428D6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07B1234EEE3400D428D6 /* Constant.swift */; };
+		BF9B07B8234EF58A00D428D6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07B7234EF58A00D428D6 /* HomeModel.swift */; };
+		BF9B07BA234EF5A000D428D6 /* RandomHoursModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07B9234EF5A000D428D6 /* RandomHoursModel.swift */; };
+		BF9B07BC234EF5B600D428D6 /* DisclaimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07BB234EF5B600D428D6 /* DisclaimerModel.swift */; };
+		BF9B07BE234EF5FF00D428D6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07BD234EF5FF00D428D6 /* HomeViewModel.swift */; };
+		BF9B07C0234EF61700D428D6 /* RandomHoursViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07BF234EF61700D428D6 /* RandomHoursViewModel.swift */; };
+		BF9B07C2234EF63400D428D6 /* DisclaimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07C1234EF63400D428D6 /* DisclaimerViewModel.swift */; };
+		BF9B07C4234EF65000D428D6 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07C3234EF65000D428D6 /* HistoryViewModel.swift */; };
+		BF9B07C6234EF65E00D428D6 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07C5234EF65E00D428D6 /* HistoryModel.swift */; };
+		BF9B07C8234EF67A00D428D6 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B07C7234EF67A00D428D6 /* HistoryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,15 @@
 		BF44640A234DC4E200DA769E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BF44640C234DC55500DA769E /* DisclaimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerVC.swift; sourceTree = "<group>"; };
 		BF9B07B1234EEE3400D428D6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BF9B07B7234EF58A00D428D6 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		BF9B07B9234EF5A000D428D6 /* RandomHoursModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomHoursModel.swift; sourceTree = "<group>"; };
+		BF9B07BB234EF5B600D428D6 /* DisclaimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerModel.swift; sourceTree = "<group>"; };
+		BF9B07BD234EF5FF00D428D6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BF9B07BF234EF61700D428D6 /* RandomHoursViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomHoursViewModel.swift; sourceTree = "<group>"; };
+		BF9B07C1234EF63400D428D6 /* DisclaimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewModel.swift; sourceTree = "<group>"; };
+		BF9B07C3234EF65000D428D6 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		BF9B07C5234EF65E00D428D6 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		BF9B07C7234EF67A00D428D6 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +154,10 @@
 		BF9B07B3234EF3AF00D428D6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF9B07B7234EF58A00D428D6 /* HomeModel.swift */,
+				BF9B07B9234EF5A000D428D6 /* RandomHoursModel.swift */,
+				BF9B07BB234EF5B600D428D6 /* DisclaimerModel.swift */,
+				BF9B07C7234EF67A00D428D6 /* HistoryVC.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,6 +168,7 @@
 				BF44640A234DC4E200DA769E /* HomeVC.swift */,
 				BF4463DC234D9DB400DA769E /* RandomHoursVC.swift */,
 				BF44640C234DC55500DA769E /* DisclaimerVC.swift */,
+				BF9B07C5234EF65E00D428D6 /* HistoryModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +188,10 @@
 		BF9B07B6234EF46900D428D6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BF9B07BD234EF5FF00D428D6 /* HomeViewModel.swift */,
+				BF9B07BF234EF61700D428D6 /* RandomHoursViewModel.swift */,
+				BF9B07C1234EF63400D428D6 /* DisclaimerViewModel.swift */,
+				BF9B07C3234EF65000D428D6 /* HistoryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -302,10 +329,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF9B07B2234EEE3400D428D6 /* Constant.swift in Sources */,
+				BF9B07BE234EF5FF00D428D6 /* HomeViewModel.swift in Sources */,
+				BF9B07BA234EF5A000D428D6 /* RandomHoursModel.swift in Sources */,
 				BF4463DD234D9DB400DA769E /* RandomHoursVC.swift in Sources */,
+				BF9B07B8234EF58A00D428D6 /* HomeModel.swift in Sources */,
 				BF44640B234DC4E200DA769E /* HomeVC.swift in Sources */,
+				BF9B07C6234EF65E00D428D6 /* HistoryModel.swift in Sources */,
+				BF9B07C8234EF67A00D428D6 /* HistoryVC.swift in Sources */,
 				BF4463DB234D9DB400DA769E /* AppDelegate.swift in Sources */,
+				BF9B07C4234EF65000D428D6 /* HistoryViewModel.swift in Sources */,
+				BF9B07BC234EF5B600D428D6 /* DisclaimerModel.swift in Sources */,
 				BF44640D234DC55500DA769E /* DisclaimerVC.swift in Sources */,
+				BF9B07C0234EF61700D428D6 /* RandomHoursViewModel.swift in Sources */,
+				BF9B07C2234EF63400D428D6 /* DisclaimerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
