@@ -157,7 +157,7 @@
 				BF9B07B7234EF58A00D428D6 /* HomeModel.swift */,
 				BF9B07B9234EF5A000D428D6 /* RandomHoursModel.swift */,
 				BF9B07BB234EF5B600D428D6 /* DisclaimerModel.swift */,
-				BF9B07C7234EF67A00D428D6 /* HistoryVC.swift */,
+				BF9B07C5234EF65E00D428D6 /* HistoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 				BF44640A234DC4E200DA769E /* HomeVC.swift */,
 				BF4463DC234D9DB400DA769E /* RandomHoursVC.swift */,
 				BF44640C234DC55500DA769E /* DisclaimerVC.swift */,
-				BF9B07C5234EF65E00D428D6 /* HistoryModel.swift */,
+				BF9B07C7234EF67A00D428D6 /* HistoryVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
