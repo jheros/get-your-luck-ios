@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:getYourLuckyClove.xcodeproj">
+      location = "self:/Users/four04coders/Desktop/getYourLuckyClove/getYourLuck.xcodeproj">
    </FileRef>
 </Workspace>

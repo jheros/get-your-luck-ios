@@ -12,8 +12,8 @@
 		BF4463E0234D9DB400DA769E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4463DE234D9DB400DA769E /* Main.storyboard */; };
 		BF4463E2234D9DB700DA769E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4463E1234D9DB700DA769E /* Assets.xcassets */; };
 		BF4463E5234D9DB700DA769E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4463E3234D9DB700DA769E /* LaunchScreen.storyboard */; };
-		BF4463F0234D9DB700DA769E /* getYourLuckyCloveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4463EF234D9DB700DA769E /* getYourLuckyCloveTests.swift */; };
-		BF4463FB234D9DB700DA769E /* getYourLuckyCloveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4463FA234D9DB700DA769E /* getYourLuckyCloveUITests.swift */; };
+		BF4463F0234D9DB700DA769E /* getYourLuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4463EF234D9DB700DA769E /* getYourLuckTests.swift */; };
+		BF4463FB234D9DB700DA769E /* getYourLuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4463FA234D9DB700DA769E /* getYourLuckUITests.swift */; };
 		BF446409234DA9ED00DA769E /* Topaz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF446408234DA8F900DA769E /* Topaz.ttf */; };
 		BF44640B234DC4E200DA769E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44640A234DC4E200DA769E /* HomeVC.swift */; };
 		BF44640D234DC55500DA769E /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44640C234DC55500DA769E /* DisclaimerVC.swift */; };
@@ -47,18 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF4463D7234D9DB400DA769E /* getYourLuckyClove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getYourLuckyClove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4463D7234D9DB400DA769E /* getYourLuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getYourLuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4463DA234D9DB400DA769E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF4463DC234D9DB400DA769E /* RandomHoursVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomHoursVC.swift; sourceTree = "<group>"; };
 		BF4463DF234D9DB400DA769E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF4463E1234D9DB700DA769E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4463E4234D9DB700DA769E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4463E6234D9DB700DA769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF4463EB234D9DB700DA769E /* getYourLuckyCloveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getYourLuckyCloveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4463EF234D9DB700DA769E /* getYourLuckyCloveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getYourLuckyCloveTests.swift; sourceTree = "<group>"; };
+		BF4463EB234D9DB700DA769E /* getYourLuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getYourLuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4463EF234D9DB700DA769E /* getYourLuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getYourLuckTests.swift; sourceTree = "<group>"; };
 		BF4463F1234D9DB700DA769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF4463F6234D9DB700DA769E /* getYourLuckyCloveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getYourLuckyCloveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4463FA234D9DB700DA769E /* getYourLuckyCloveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getYourLuckyCloveUITests.swift; sourceTree = "<group>"; };
+		BF4463F6234D9DB700DA769E /* getYourLuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getYourLuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4463FA234D9DB700DA769E /* getYourLuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getYourLuckUITests.swift; sourceTree = "<group>"; };
 		BF4463FC234D9DB700DA769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF446408234DA8F900DA769E /* Topaz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Topaz.ttf; sourceTree = "<group>"; };
 		BF44640A234DC4E200DA769E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 		BF4463CE234D9DB400DA769E = {
 			isa = PBXGroup;
 			children = (
-				BF4463D9234D9DB400DA769E /* getYourLuckyClove */,
-				BF4463EE234D9DB700DA769E /* getYourLuckyCloveTests */,
-				BF4463F9234D9DB700DA769E /* getYourLuckyCloveUITests */,
+				BF4463D9234D9DB400DA769E /* getYourLuck */,
+				BF4463EE234D9DB700DA769E /* getYourLuck */,
+				BF4463F9234D9DB700DA769E /* getYourLuckUITests */,
 				BF4463D8234D9DB400DA769E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,14 +113,14 @@
 		BF4463D8234D9DB400DA769E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF4463D7234D9DB400DA769E /* getYourLuckyClove.app */,
-				BF4463EB234D9DB700DA769E /* getYourLuckyCloveTests.xctest */,
-				BF4463F6234D9DB700DA769E /* getYourLuckyCloveUITests.xctest */,
+				BF4463D7234D9DB400DA769E /* getYourLuck.app */,
+				BF4463EB234D9DB700DA769E /* getYourLuckTests.xctest */,
+				BF4463F6234D9DB700DA769E /* getYourLuckUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF4463D9234D9DB400DA769E /* getYourLuckyClove */ = {
+		BF4463D9234D9DB400DA769E /* getYourLuck */ = {
 			isa = PBXGroup;
 			children = (
 				BF4463DA234D9DB400DA769E /* AppDelegate.swift */,
@@ -130,25 +130,26 @@
 				BF9B07B6234EF46900D428D6 /* ViewModel */,
 				BF9B07B5234EF40200D428D6 /* Resource */,
 			);
-			path = getYourLuckyClove;
+			path = getYourLuck;
 			sourceTree = "<group>";
 		};
-		BF4463EE234D9DB700DA769E /* getYourLuckyCloveTests */ = {
+		BF4463EE234D9DB700DA769E /* getYourLuck */ = {
 			isa = PBXGroup;
 			children = (
-				BF4463EF234D9DB700DA769E /* getYourLuckyCloveTests.swift */,
+				BF4463EF234D9DB700DA769E /* getYourLuckTests.swift */,
 				BF4463F1234D9DB700DA769E /* Info.plist */,
 			);
+			name = getYourLuck;
 			path = getYourLuckyCloveTests;
 			sourceTree = "<group>";
 		};
-		BF4463F9234D9DB700DA769E /* getYourLuckyCloveUITests */ = {
+		BF4463F9234D9DB700DA769E /* getYourLuckUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BF4463FA234D9DB700DA769E /* getYourLuckyCloveUITests.swift */,
+				BF4463FA234D9DB700DA769E /* getYourLuckUITests.swift */,
 				BF4463FC234D9DB700DA769E /* Info.plist */,
 			);
-			path = getYourLuckyCloveUITests;
+			path = getYourLuckUITests;
 			sourceTree = "<group>";
 		};
 		BF9B07B3234EF3AF00D428D6 /* Model */ = {
@@ -199,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF4463D6234D9DB400DA769E /* getYourLuckyClove */ = {
+		BF4463D6234D9DB400DA769E /* getYourLuck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF4463FF234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckyClove" */;
+			buildConfigurationList = BF4463FF234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuck" */;
 			buildPhases = (
 				BF4463D3234D9DB400DA769E /* Sources */,
 				BF4463D4234D9DB400DA769E /* Frameworks */,
@@ -211,14 +212,14 @@
 			);
 			dependencies = (
 			);
-			name = getYourLuckyClove;
+			name = getYourLuck;
 			productName = getYourLuckyClove;
-			productReference = BF4463D7234D9DB400DA769E /* getYourLuckyClove.app */;
+			productReference = BF4463D7234D9DB400DA769E /* getYourLuck.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF4463EA234D9DB700DA769E /* getYourLuckyCloveTests */ = {
+		BF4463EA234D9DB700DA769E /* getYourLuckTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF446402234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckyCloveTests" */;
+			buildConfigurationList = BF446402234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckTests" */;
 			buildPhases = (
 				BF4463E7234D9DB700DA769E /* Sources */,
 				BF4463E8234D9DB700DA769E /* Frameworks */,
@@ -229,14 +230,14 @@
 			dependencies = (
 				BF4463ED234D9DB700DA769E /* PBXTargetDependency */,
 			);
-			name = getYourLuckyCloveTests;
+			name = getYourLuckTests;
 			productName = getYourLuckyCloveTests;
-			productReference = BF4463EB234D9DB700DA769E /* getYourLuckyCloveTests.xctest */;
+			productReference = BF4463EB234D9DB700DA769E /* getYourLuckTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF4463F5234D9DB700DA769E /* getYourLuckyCloveUITests */ = {
+		BF4463F5234D9DB700DA769E /* getYourLuckUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF446405234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckyCloveUITests" */;
+			buildConfigurationList = BF446405234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckUITests" */;
 			buildPhases = (
 				BF4463F2234D9DB700DA769E /* Sources */,
 				BF4463F3234D9DB700DA769E /* Frameworks */,
@@ -247,9 +248,9 @@
 			dependencies = (
 				BF4463F8234D9DB700DA769E /* PBXTargetDependency */,
 			);
-			name = getYourLuckyCloveUITests;
+			name = getYourLuckUITests;
 			productName = getYourLuckyCloveUITests;
-			productReference = BF4463F6234D9DB700DA769E /* getYourLuckyCloveUITests.xctest */;
+			productReference = BF4463F6234D9DB700DA769E /* getYourLuckUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF4463D2234D9DB400DA769E /* Build configuration list for PBXProject "getYourLuckyClove" */;
+			buildConfigurationList = BF4463D2234D9DB400DA769E /* Build configuration list for PBXProject "getYourLuck" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -288,9 +289,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF4463D6234D9DB400DA769E /* getYourLuckyClove */,
-				BF4463EA234D9DB700DA769E /* getYourLuckyCloveTests */,
-				BF4463F5234D9DB700DA769E /* getYourLuckyCloveUITests */,
+				BF4463D6234D9DB400DA769E /* getYourLuck */,
+				BF4463EA234D9DB700DA769E /* getYourLuckTests */,
+				BF4463F5234D9DB700DA769E /* getYourLuckUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -349,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4463F0234D9DB700DA769E /* getYourLuckyCloveTests.swift in Sources */,
+				BF4463F0234D9DB700DA769E /* getYourLuckTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4463FB234D9DB700DA769E /* getYourLuckyCloveUITests.swift in Sources */,
+				BF4463FB234D9DB700DA769E /* getYourLuckUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +367,12 @@
 /* Begin PBXTargetDependency section */
 		BF4463ED234D9DB700DA769E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF4463D6234D9DB400DA769E /* getYourLuckyClove */;
+			target = BF4463D6234D9DB400DA769E /* getYourLuck */;
 			targetProxy = BF4463EC234D9DB700DA769E /* PBXContainerItemProxy */;
 		};
 		BF4463F8234D9DB700DA769E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF4463D6234D9DB400DA769E /* getYourLuckyClove */;
+			target = BF4463D6234D9DB400DA769E /* getYourLuck */;
 			targetProxy = BF4463F7234D9DB700DA769E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -567,7 +568,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getYourLuckyClove.app/getYourLuckyClove";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getYourLuck.app/getYourLuck";
 			};
 			name = Debug;
 		};
@@ -588,7 +589,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getYourLuckyClove.app/getYourLuckyClove";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getYourLuck.app/getYourLuck";
 			};
 			name = Release;
 		};
@@ -635,7 +636,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF4463D2234D9DB400DA769E /* Build configuration list for PBXProject "getYourLuckyClove" */ = {
+		BF4463D2234D9DB400DA769E /* Build configuration list for PBXProject "getYourLuck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF4463FD234D9DB700DA769E /* Debug */,
@@ -644,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF4463FF234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckyClove" */ = {
+		BF4463FF234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF446400234D9DB700DA769E /* Debug */,
@@ -653,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF446402234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckyCloveTests" */ = {
+		BF446402234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF446403234D9DB700DA769E /* Debug */,
@@ -662,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF446405234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckyCloveUITests" */ = {
+		BF446405234D9DB700DA769E /* Build configuration list for PBXNativeTarget "getYourLuckUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF446406234D9DB700DA769E /* Debug */,
